@@ -1,0 +1,7 @@
+vu_schema.add:
+  path: '/vu_schema/add'
+  defaults:
+    _title: 'Add entry'
+    _form: '\Drupal\vu_schema\Form\VUschemaAddForm'
+  requirements:
+    _permission: 'access content'

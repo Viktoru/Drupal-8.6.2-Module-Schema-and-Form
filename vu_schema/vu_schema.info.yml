@@ -1,0 +1,12 @@
+name: VUSCHEMA TABLE
+description: 'Welcome to my first schema table.'
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+
+dependencies:
+  - user
+  - node
+  - path
+  - text
