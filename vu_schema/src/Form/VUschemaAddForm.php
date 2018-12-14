@@ -46,7 +46,7 @@ class VUschemaAddForm extends FormBase {
       '#type' => 'textfield',
       '#title' => $this->t('Age'),
       '#size' => 5,
-      '#description' => $this->t("Values greater than 127 will cause an exception. Try it - it's a great example why exception handling is needed with DTBNG."),
+      '#description' => $this->t("Values"),
     ];
     $form['add']['submit'] = [
       '#type' => 'submit',
